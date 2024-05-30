@@ -97,3 +97,12 @@ button:active {
 .zero {
     grid-column: span 2;
 }
+
+.btn-trig {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn-trig:hover {
+    background-color: #2980b9;
+}
