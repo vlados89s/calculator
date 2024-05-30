@@ -3,9 +3,10 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to right, #ff7e5f, #feb47b);
     margin: 0;
     font-family: 'Arial', sans-serif;
+    background: url('https://gas-kvas.com/uploads/posts/2023-02/1675427118_gas-kvas-com-p-fonovii-risunok-obucheniya-3.png') no-repeat center center fixed;
+    background-size: cover;
 }
 
 .calculator {
@@ -96,4 +97,3 @@ button:active {
 .zero {
     grid-column: span 2;
 }
-
