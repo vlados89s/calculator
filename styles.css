@@ -14,8 +14,9 @@ body {
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     overflow: hidden;
-    width: 320px;
+    width: 360px;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 .display {
@@ -98,11 +99,17 @@ button:active {
     grid-column: span 2;
 }
 
-.btn-trig {
+.btn-function {
     background-color: #3498db;
     color: #fff;
 }
 
-.btn-trig:hover {
+.btn-function:hover {
     background-color: #2980b9;
+}
+
+.watermark {
+    font-size: 0.8em;
+    color: #fff;
+    text-align: center;
 }
