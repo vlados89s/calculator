@@ -51,3 +51,4 @@ function calculateFunction(func) {
         alert('Ошибка при вычислении функции');
     }
 }
+
