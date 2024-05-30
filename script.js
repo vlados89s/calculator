@@ -20,3 +20,31 @@ function calculateResult() {
     }
 }
 
+function calculateTrigFunction(func) {
+    let value = parseFloat(document.getElementById('result').value);
+    let result;
+    switch (func) {
+        case 'sin':
+            result = Math.sin(value);
+            break;
+        case 'cos':
+            result = Math.cos(value);
+            break;
+        case 'tan':
+            result = Math.tan(value);
+            break;
+        case 'cot':
+            if (value === 0) {
+                alert('Ошибка: котангенс не определен при значении 0');
+                return;
+            }
+            result = 1 / Math.tan(value);
+            break;
+        default:
+            alert('Неизвестная функция: ' + func);
+            return;
+    }
+    document.getElementById('result').value = result;
+}
+
+
