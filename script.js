@@ -19,3 +19,4 @@ function calculateResult() {
         alert('Ошибка в выражении');
     }
 }
+
